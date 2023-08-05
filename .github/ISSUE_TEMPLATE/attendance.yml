@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Request to join Webducks clan and get access to all private and public repositories, collab with clan members, ask members for help on your projects and help them with their projects, prized code battles and tournaments and more...  
   - type: input
     id: contact
     attributes:
