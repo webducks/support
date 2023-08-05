@@ -81,20 +81,24 @@ body:
       placeholder: Share any additional information.
     validations:
       required: false
+  # - type: checkboxes
+  #   id: languages
+  #   attributes:
+  #     label: "Select the languages you're comfortable with"
+  #     options:
+  #       - JavaScript
+  #       - Python
+  #       - PHP
+  #       - C
+  #       - C#
+  #       - C++
+  #       - SQL 
+  #       - Scala
+  #       - Java
+  #       - Go
+  #   validations:
+  #     required: true
   - type: checkboxes
-    id: languages
     attributes:
-      label: "Select the languages you're comfortable with"
       options:
-        - JavaScript
-        - Python
-        - PHP
-        - C
-        - C#
-        - C++
-        - SQL 
-        - Scala
-        - Java
-        - Go
-    validations:
-      required: true
+      - label: Name
