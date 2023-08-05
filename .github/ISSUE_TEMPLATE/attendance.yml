@@ -10,77 +10,77 @@ body:
       value: |
         Request to join Webducks clan and get access to all private and public repositories, collab with clan members, ask members for help on your projects and help them with their projects, prized code battles and tournaments and more...  
   
-  - type: input
-    id: working-role
-    attributes: 
-      label: Working Role
-      description: what is your role/feild
-      placeholder: ex. MEVN fullstack web developer/Scala backend engineer
-    validations:
-      required: true
+  # - type: input
+  #   id: working-role
+  #   attributes: 
+  #     label: Working Role
+  #     description: what is your role/feild
+  #     placeholder: ex. MEVN fullstack web developer/Scala backend engineer
+  #   validations:
+  #     required: true
 
-  - type: input
-    id: coding-experience
-    attributes:
-      label: rate your problem-solving skills
-      description: Please enter the honest number YOU rate yourself.
-      placeholder: ex. 7
-    validations:
-      required: true
-      type: integer
-      min: 1
-      max: 10
+  # - type: input
+  #   id: coding-experience
+  #   attributes:
+  #     label: rate your problem-solving skills
+  #     description: Please enter the honest number YOU rate yourself.
+  #     placeholder: ex. 7
+  #   validations:
+  #     required: true
+  #     type: integer
+  #     min: 1
+  #     max: 10
 
-    - type: input
-    id: coding-experience
-    attributes:
-      label: rate your scripting, algorithms and data structures skills
-      description: Please enter the honest number YOU rate yourself.
-      placeholder: ex. 7
-    validations:
-      required: true
-      type: integer
-      min: 1
-      max: 10
+  #   - type: input
+  #   id: coding-experience
+  #   attributes:
+  #     label: rate your scripting, algorithms and data structures skills
+  #     description: Please enter the honest number YOU rate yourself.
+  #     placeholder: ex. 7
+  #   validations:
+  #     required: true
+  #     type: integer
+  #     min: 1
+  #     max: 10
 
-   - type: input
-    id: coding-experience
-    attributes:
-      label: rate your problem-solving skills
-      description: Please enter the honest number YOU rate yourself.
-      placeholder: ex. 7
-    validations:
-      required: true
-      type: integer
-      min: 1
-      max: 10
+  #  - type: input
+  #   id: coding-experience
+  #   attributes:
+  #     label: rate your problem-solving skills
+  #     description: Please enter the honest number YOU rate yourself.
+  #     placeholder: ex. 7
+  #   validations:
+  #     required: true
+  #     type: integer
+  #     min: 1
+  #     max: 10
       
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: Anything we can get in touch with you on
-      placeholder: ex. email@example.com
-    validations:
-      required: true
-  - type: input
-    id: coding-experience
-    attributes:
-      label: How many years of professional coding experience do you have?
-      description: Please enter the number of years you have been coding.
-      placeholder: Enter your coding experience in years
-    validations:
-      required: true
-      type: integer
+  # - type: input
+  #   id: contact
+  #   attributes:
+  #     label: Contact Details
+  #     description: Anything we can get in touch with you on
+  #     placeholder: ex. email@example.com
+  #   validations:
+  #     required: true
+  # - type: input
+  #   id: coding-experience
+  #   attributes:
+  #     label: How many years of professional coding experience do you have?
+  #     description: Please enter the number of years you have been coding.
+  #     placeholder: Enter your coding experience in years
+  #   validations:
+  #     required: true
+  #     type: integer
 
-  - type: textarea
-    id: additional-messages
-    attributes:
-      label: Any other messages (optional)
-      description: Feel free to add any additional messages or comments.
-      placeholder: Share any additional information.
-    validations:
-      required: false
+  # - type: textarea
+  #   id: additional-messages
+  #   attributes:
+  #     label: Any other messages (optional)
+  #     description: Feel free to add any additional messages or comments.
+  #     placeholder: Share any additional information.
+  #   validations:
+  #     required: false
   # - type: checkboxes
   #   id: languages
   #   attributes:
