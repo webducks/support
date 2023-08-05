@@ -34,18 +34,3 @@ body:
       placeholder: Share any additional information.
     validations:
       required: false
-
-   - type: checkboxes
-    id: programming-languages
-    attributes:
-      label: Select languages you know:
-      description: Please select the programming languages you know.
-      options:
-        - JavaScript
-        - Python
-        - C
-        - PHP
-        - SQL
-        - Scala
-    validations:
-      required: true
