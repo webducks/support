@@ -71,13 +71,14 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: affected-versions
-    label: Affected Versions
-    description: Select the versions of the software that are affected by this bug.
+  id: operating-systems
+  attributes:
+    label: Which operating systems have you used?
+    description: You may select more than one.
     options:
-    - v1.0.0
-    - v1.1.0
-    - v1.2.0
+      - label: macOS
+      - label: Windows
+      - label: Linux
   # - type: checkboxes
   #   id: languages
   #   attributes:
