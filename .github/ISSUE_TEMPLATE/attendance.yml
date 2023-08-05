@@ -25,14 +25,14 @@ body:
       placeholder: Enter your work experience in years
     validations:
       required: true
-  - type: input
-    id: role
-    attributes:
-      label: What is your role? (ex: MEVN fullstack web developer)
-      description: Please enter your role or job title.
-      placeholder: Enter your role or job title
-    validations:
-      required: true
+  # - type: input
+  #   id: role
+  #   attributes:
+  #     label: What is your role? (ex: MEVN fullstack web developer)
+  #     description: Please enter your role or job title.
+  #     placeholder: Enter your role or job title
+  #   validations:
+  #     required: true
   - type: input
     id: problem-solving-skills
     attributes:
