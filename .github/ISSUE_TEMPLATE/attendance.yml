@@ -71,38 +71,30 @@ body:
     validations:
       required: false
 
-  # - type: checkboxes
-  #   id: languages
-  #   attributes:
-  #     label: "Select the languages you're comfortable with"
-  #     options:
-  #       - JavaScript
-  #       - Python
-  #       - PHP
-  #       - C
-  #       - C#
-  #       - C++
-  #       - SQL 
-  #       - Scala
-  #       - Java
-  #       - Go
-  #   validations:
-  #     required: true
-
   - type: checkboxes
     id: languages
     attributes:
       label: "Select the languages you're comfortable with"
       options:
-        - JavaScript
-        - Python
-        - PHP
-        - C
-        - C#
-        - C++
-        - SQL 
-        - Scala
-        - Java
-        - Go
+        - label: JavaScript
+          value: js
+        - label: Python
+          value: python
+        - label: PHP
+          value: php
+        - label: C
+          value: c
+        - label: C#
+          value: csharp
+        - label: C++
+          value: cpp
+        - label: SQL 
+          value: sql
+        - label: Scala
+          value: scala
+        - label: Java
+          value: java
+        - label: Go
+          value: go
     validations:
       required: true
