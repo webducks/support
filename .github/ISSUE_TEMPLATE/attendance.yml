@@ -77,24 +77,24 @@ body:
       label: "Select the languages you're comfortable with"
       options:
         - label: JavaScript
-          value: js
+          value: JavaScript
         - label: Python
-          value: python
+          value: Python
         - label: PHP
-          value: php
+          value: PHP
         - label: C
-          value: c
+          value: C
         - label: C#
-          value: csharp
+          value: C#
         - label: C++
-          value: cpp
+          value: C++
         - label: SQL 
-          value: sql
+          value: SQL
         - label: Scala
-          value: scala
+          value: Scala
         - label: Java
-          value: java
+          value: Java
         - label: Go
-          value: go
+          value: Go
     validations:
       required: true
