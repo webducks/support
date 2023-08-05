@@ -5,4 +5,120 @@ labels: ["bug", "triage"]
 assignees:
   - eymeen
 body:
-  
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
+    validations:
+      required: true
+  - type: input
+    id: work-experience
+    attributes:
+      label: How many years of professional work experience do you have?
+      description: Please enter the number of years of work experience.
+      placeholder: Enter your work experience in years
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: What is your role? (ex: MEVN fullstack web developer)
+      description: Please enter your role or job title.
+      placeholder: Enter your role or job title
+    validations:
+      required: true
+  - type: input
+    id: problem-solving-skills
+    attributes:
+      label: How do you rate your problem-solving skills? (1-10)
+      description: Please rate your problem-solving skills on a scale of 1 to 10.
+      placeholder: Enter a rating from 1 to 10
+    validations:
+      required: true
+  - type: input
+    id: scripting-skills
+    attributes:
+      label: How do you rate your scripting and algorithms skills? (1-10)
+      description: Please rate your scripting and algorithms skills on a scale of 1 to 10.
+      placeholder: Enter a rating from 1 to 10
+    validations:
+      required: true
+  - type: input
+    id: data-structures-skills
+    attributes:
+      label: How do you rate your data structures skills? (1-10)
+      description: Please rate your data structures skills on a scale of 1 to 10.
+      placeholder: Enter a rating from 1 to 10
+    validations:
+      required: true
+  - type: checkboxes
+    id: programming-languages
+    attributes:
+      label: Select languages you know:
+      description: Please select the programming languages you know.
+      options:
+        - JavaScript
+        - Python
+        - C
+        - PHP
+        - SQL
+        - Scala
+    validations:
+      required: true
+  - type: input
+    id: cybersecurity-comfort
+    attributes:
+      label: Are you comfortable with hacking/cybersecurity?
+      description: Please answer yes or no.
+      placeholder: Yes/No
+    validations:
+      required: true
+  - type: textarea
+    id: benefit-to-clan
+    attributes:
+      label: How do you think you can benefit this clan?
+      description: Please tell us how you can contribute to the clan.
+      placeholder: Share your thoughts.
+    validations:
+      required: true
+  - type: input
+    id: discord-username
+    attributes:
+      label: Your Discord Username
+      description: Please enter your Discord username.
+      placeholder: Enter your Discord username
+    validations:
+      required: true
+  - type: textarea
+    id: additional-messages
+    attributes:
+      label: Any other messages (optional)
+      description: Feel free to add any additional messages or comments.
+      placeholder: Share any additional information.
+    validations:
+      required: false
