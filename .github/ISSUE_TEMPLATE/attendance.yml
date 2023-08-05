@@ -101,4 +101,4 @@ body:
   - type: checkboxes
     attributes:
       options:
-      - label: Name
+      - label: "languages"
