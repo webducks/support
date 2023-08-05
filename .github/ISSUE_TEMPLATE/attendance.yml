@@ -71,38 +71,20 @@ body:
     validations:
       required: false
   - type: checkboxes
-    id: operating-systems
+    id: languages
     attributes:
-      label: Which operating systems have you used?
+      label: "Select the languages you're comfortable with"
       description: You may select more than one.
       options:
-        - label: macOS
-        - label: Windows
-        - label: Linux
-  # - type: checkboxes
-  #   id: languages
-  #   attributes:
-  #     label: "Select the languages you're comfortable with"
-  #     options:
-  #       - label: JavaScript
-  #         value: javascript
-  #       - label: Python
-  #         value: python
-  #       - label: PHP
-  #         value: php
-  #       - label: C
-  #         value: c
-  #       - label: C#
-  #         value: csharp
-  #       - label: C++
-  #         value: cpp
-  #       - label: SQL 
-  #         value: sql
-  #       - label: Scala
-  #         value: scala
-  #       - label: Java
-  #         value: java
-  #       - label: Go
-  #         value: go
-  #   validations:
-  #     required: true
+        - label: JavaScript
+        - label: Python
+        - label: PHP
+        - label: C
+        - label: C#
+        - label: C++
+        - label: SQL 
+        - label: Scala
+        - label: Java
+        - label: Go
+    validations:
+      required: true
