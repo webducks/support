@@ -1,8 +1,5 @@
 blank_issues_enabled: true
 contact_links:
-  - name: Webducks clan on discord
-    url: https://github.com/orgs/community/discussions
-    about: Please ask and answer questions here.
-  - name: GitHub Security Bug Bounty
-    url: https://bounty.github.com/
-    about: Please report security vulnerabilities here.
+  - name: ask on Web Geeks community!
+    url: https://discord.gg/hPgB5pVJBj
+    about: 
