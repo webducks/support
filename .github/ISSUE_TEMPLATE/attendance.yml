@@ -53,23 +53,7 @@ body:
       required: true
       type: integer
 
-  - type: input
-    id: contact
-    attributes:
-      label: Contact Details
-      description: Anything we can get in touch with you on
-      placeholder: ex. email@example.com
-    validations:
-      required: true
 
-  - type: textarea
-    id: additional-messages
-    attributes:
-      label: Any other messages (optional)
-      description: Feel free to add any additional messages or comments.
-      placeholder: Share any additional information.
-    validations:
-      required: false
   - type: checkboxes
     id: languages
     attributes:
@@ -88,3 +72,33 @@ body:
         - label: Go
     validations:
       required: true
+
+  - type: textarea
+    id: benefition
+    attributes:
+      label: how do you think can you benefit this clan?
+      description: Feel free to add any additional messages or comments.
+      placeholder: "With my massive experience in hacking I'll add more repositories and contribute to the previous..."
+    validations:
+      required: true
+ 
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: Anything we can get in touch with you on
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+      
+  - type: input
+    id: discord
+    attributes:
+      label: Your discord username
+      description: "It's necessary to join the server of the clan on the discord"
+      placeholder: @webgeeks
+    validations:
+      required: true
+
+
+
