@@ -75,9 +75,9 @@ body:
     label: Affected Versions
     description: Select the versions of the software that are affected by this bug.
     options:
-    - label: v1.0.0
-    - label: v1.1.0
-    - label: v1.2.0
+    - v1.0.0
+    - v1.1.0
+    - v1.2.0
   # - type: checkboxes
   #   id: languages
   #   attributes:
