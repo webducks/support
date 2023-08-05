@@ -77,7 +77,7 @@ body:
       label: "Select the languages you're comfortable with"
       options:
         - label: JavaScript
-          value: js
+          value: javascript
         - label: Python
           value: python
         - label: PHP
