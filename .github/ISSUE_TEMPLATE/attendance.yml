@@ -96,7 +96,7 @@ body:
     attributes:
       label: Your discord username
       description: "It's necessary to join the server of the clan on the discord"
-      placeholder: @webgeeks
+      placeholder: "@webgeeks"
     validations:
       required: true
 
